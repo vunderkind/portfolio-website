@@ -101,6 +101,10 @@ h1 {
     flex-wrap: wrap;
 }
 
+.separator {
+    padding-top: 4em;
+}
+
 .fas.fa-caret-up {
     display: flex;
 }
@@ -275,6 +279,8 @@ footer {
      width: 100%;
  }
 
+
+ 
  .intro-port{
      width: 100%;
      padding-top: 2em;
