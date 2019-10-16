@@ -113,7 +113,13 @@ nav {
 
 .intro {
     display: flex;
-    padding-top: 5%;
+    padding-top: 1%;
+    justify-content: space-between;
+}
+
+.portfolio-intro {
+    display: flex;
+    padding-top: 1%;
     justify-content: space-between;
 }
 
@@ -126,6 +132,24 @@ font-family: 'Lexend Deca';
 font-size: 1.03em;
 font-weight: bold;
 text-align: justify;
+}
+
+.intro-port{
+    display: flex;
+    width: 90%;
+    margin-right: 1%;
+    line-height: 200%;
+    font-family: 'Lexend Deca';
+    font-size: 1.03em;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.portfolio-image {
+    display: flex;
+    width: 50%;
+    margin-left: 1%;
+    align-self: flex-start;
 }
 
 .intro-image {
@@ -168,6 +192,27 @@ padding: 4% 0;
 color: rgb(85, 85, 85);
 }
 
+.myButton {
+	background-color:#000000;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Lexend Deca';
+	font-size:16px;
+    padding:9px 56px;
+    margin-top: 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#f5c35f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
 footer {
     font-size: 1.2em;
     font-family: 'Oswald';
@@ -207,6 +252,32 @@ footer {
      display: flex;
      flex-wrap: wrap;
      flex-direction: column-reverse;
+ }
+
+ .portfolio-intro{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column-reverse;
+
+ }
+
+ .portfolio-h3 {
+     text-align: center;
+     width: 100%;
+     padding-top: 2em;
+     font-size: 1.5em;
+ }
+
+ .portfolio-image {
+     width: 100%;
+ }
+ .portfolio-container {
+     width: 100%;
+ }
+
+ .intro-port{
+     width: 100%;
+     padding-top: 2em;
  }
 
     .intro-text {
@@ -262,3 +333,5 @@ footer {
         flex-wrap:wrap;
     }
     }
+
+    
